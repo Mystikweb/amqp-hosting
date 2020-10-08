@@ -1,13 +1,14 @@
 ﻿using Amqp;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Mystikweb.Amqp.Client.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Mystikweb.Amqp.Client
 {
-    public class ClientConnection
+    public class ClientConnection : IClientConnection
     {
         private readonly ILogger logger;
         private readonly ClientOptions clientOptions;
@@ -24,5 +25,7 @@ namespace Mystikweb.Amqp.Client
             connection = new Connection(clientOptions.GetOptionsAddress());
             session = new Session(connection);
         }
+
+
     }
 }

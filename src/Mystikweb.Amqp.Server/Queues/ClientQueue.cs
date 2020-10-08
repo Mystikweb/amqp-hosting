@@ -13,6 +13,11 @@ namespace Mystikweb.Amqp.Server.Queues
         private ListenerLink clientLink;
         private Func<string, Message, Task> onMessagePublished;
 
+        public ClientQueue(ILogger<ClientQueue> logger)
+        {
+            this.logger = logger;
+        }
+
         public string Name => clientLink.Name;
         public bool IsConsumer => !clientLink.Role;
 

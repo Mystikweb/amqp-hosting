@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Amqp", "src\Mystikweb.Amqp\Mystikweb.Amqp.csproj", "{E04DD417-F900-4754-8E1F-B7A5FFEB7E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Amqp.Server", "src\Mystikweb.Amqp.Server\Mystikweb.Amqp.Server.csproj", "{83A99259-260A-46D4-8E93-06B0436C079C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Amqp.Client", "src\Mystikweb.Amqp.Client\Mystikweb.Amqp.Client.csproj", "{725F0700-E8EC-489A-A888-04C7BDD447F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E04DD417-F900-4754-8E1F-B7A5FFEB7E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04DD417-F900-4754-8E1F-B7A5FFEB7E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04DD417-F900-4754-8E1F-B7A5FFEB7E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04DD417-F900-4754-8E1F-B7A5FFEB7E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A99259-260A-46D4-8E93-06B0436C079C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A99259-260A-46D4-8E93-06B0436C079C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A99259-260A-46D4-8E93-06B0436C079C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A99259-260A-46D4-8E93-06B0436C079C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725F0700-E8EC-489A-A888-04C7BDD447F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F0700-E8EC-489A-A888-04C7BDD447F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F0700-E8EC-489A-A888-04C7BDD447F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F0700-E8EC-489A-A888-04C7BDD447F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19E57148-583F-4C85-949E-A2689E6471EA}
+	EndGlobalSection
+EndGlobal
